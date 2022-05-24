@@ -1,0 +1,47 @@
+.product {
+    padding: 40px 0;
+}
+.box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 4%;
+}
+.content h4 {
+    margin-top: 10px;
+}
+.content span {
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn {
+    background: steelblue;
+    border-radius: 50%;
+    font-size: 16px;
+    color: white;
+    margin: 0 8px;
+}
+.cart_btn {
+    border-radius: 4px;
+    border: 1px solid steelblue;
+    background: steelblue;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 4px 16px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.cart_btn:hover {
+    color: black;
+    background-color: lightsteelblue;
+    border: 1px solid steelblue;
+}
+img {
+    width: 100%;
+}
+input {
+    width: 10%;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+<app-header></app-header>
+<section class="cart_section">
+    <div class="container">
+        <h2>Cart</h2>
+        <div class="table-responsive">
+            <table>
+                <colgroup>
+                    <col span="1" style="width: 50%;">
+                    <col span="1" style="width: 12.5%;">
+                    <col span="1" style="width: 17%;">
+                    <col span="1" style="width: 12.5%;">
+                    <col span="1" style="width: 8%;">
+                 </colgroup>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Sub Total</th>
+                    <th>Remove Item</th>
+                </tr>
+                <tr *ngFor="let prod of containProductArray">
+                    <td><img src="{{prod.img}}" alt="product1"><span class="itemTitle">{{prod.name}}</span></td>
+                    <td>${{prod.amt}}</td>
+                    <td>
+                        <div class="content">
+                            <button type="button" class="btn" (click)="plus(prod)"><i class="fa fa-plus"></i></button>
+                            <span>{{prod.qnt}}</span>
+                            <button type="button" class="btn" (click)="minus(prod)"><i class="fa fa-minus"></i></button>
+                        </div>
+                    </td>
+                    <td>${{prod.amt}}</td>
+                    <td>
+                        <div class="content">
+                            <button type="button" class="trash-btn"><i class="fa fa-trash"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <div class="total">
+                    <h4>Total:<button type="button" class="delete-btn">Remove All Items &nbsp;<i class="fa fa-trash"></i></button></h4>
+                </div>
+            </table>
+        </div>
+    </div>
+</section>

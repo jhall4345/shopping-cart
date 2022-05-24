@@ -1,0 +1,77 @@
+.cart_section {
+    padding: 40px 0;
+}
+.btn {
+    background: steelblue;
+    border-radius: 50%;
+    font-size: 16px;
+    color: white;
+    margin: 0 8px;
+}
+.trash-btn {
+    color: red;
+    border: 1px solid red;
+    position: relative;
+    margin: 20% 30%;
+    width: 40%;
+}
+img {
+    width: 11%;
+    margin-right: 130px;
+    margin-left: 13px;
+}
+.itemTitle {
+    font-size: 24px;
+    font-weight: 500;
+    font-variant: small-caps;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .content span, td {
+    font-size: 17px;
+    font-weight: 600;
+}
+th {
+    font-size: 20px;
+}
+td, th {
+    border: 1px solid rgba(176, 196, 222, 0.612);
+    text-align: left;
+    padding: 8px;
+  }
+th:first-child {
+    padding-left: 147px;
+}
+td:not(:first-child) {
+    text-align: center;
+}
+th:not(:first-child) {
+    text-align: center;
+
+}
+tr:nth-child(even) {
+    background-color: rgba(151, 180, 218, 0.301);
+  }
+
+input {
+    width: 10%;
+    text-align: center;
+}
+
+.total h4 {
+    padding-top: 4%;
+    padding-left: 7%;
+    font-variant: small-caps;
+}
+.total button {
+    width: 26%;
+    margin-left: 170%;
+    font-size: 13pt;
+    color: white;
+     background-color: red;
+     border: none;
+     border-radius: 7%;
+}
